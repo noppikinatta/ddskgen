@@ -13,4 +13,4 @@ test-cov:
 	go test -cover -coverprofile=cover.out -v ./... && go tool cover -html=cover.out
 
 build:
-	go build -o=release/game.wasm app/main.go
+	go build -o=release/ddskgen app/main.go
